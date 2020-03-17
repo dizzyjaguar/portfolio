@@ -31,12 +31,21 @@
   background-color: #282c34;
   min-height: 40vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   border: 1px solid green;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Project-Item {
+  display: inline-block;
+  background-color: rgb(67, 131, 145);
+  border: 1px solid rgb(84, 84, 205);
+  border-radius: 1rem;
+  padding: 2%;
+  margin: 5%;
 }
 
 .Footer {
