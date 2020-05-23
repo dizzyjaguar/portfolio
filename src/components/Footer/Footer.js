@@ -5,10 +5,11 @@ export default class Footer extends Component {
     return (
       <div className='Footer'>
         <p>
-          github:
-          linkedIn:
-          instagram:
+          Email: dizzyjaguar@gmail.com
         </p>
+        <a href='https://github.com/dizzyjaguar'>Github </a>
+        <a href='https://www.linkedin.com/in/eli-zevin/'>LinkedIn </a>
+        <a href='https://www.instagram.com/eli.zevin'>Instagram </a>  
       </div>
     )
   }

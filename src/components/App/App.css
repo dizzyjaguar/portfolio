@@ -1,82 +1,94 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
+a {
+  color: rgb(40, 166, 194);
+}
+
+a:hover {
+  color: rgb(218, 104, 18);
+}
 
 .App {
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
-
+  
 }
 
 
 .Header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(176, 53, 53);
   padding: 2%;
 }
 
-.Header span {
-
-}
-
 .About {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
   font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 3%;
+  padding: 5%;
 }
 
 .About p {
-
+  color: rgb(54, 133, 167);
+  font-weight: 800;
+  line-height: 130%;
 }
 
 .Projects {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 40vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.Footer {
+  color: green;
+  padding: 5em;
+  letter-spacing: .5em;
 }
 
 .Project-Item {
   display: inline-block;
-  background-color: rgb(67, 131, 145);
-  border: 1px solid rgb(84, 84, 205);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(32, 153, 32);
   border-radius: 1rem;
   padding: 2%;
   margin: 5%;
+  width: 40rem;
+  height: 25rem;
+  font-size: calc(5px + 2vmin);
 }
 
-.Footer {
-  background-color: #282c34;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Technology {
+  color: rgb(192, 72, 72);
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+.Description {
+  color: rgb(223, 131, 33);
+  font-weight: 500 ;
 }
+
+.Extra {
+  color: rgb(114, 111, 111);
+  font-size: .7em;
+}
+
+.Title {
+  color: rgb(28, 160, 43);
+  font-size: 1.5em;
+};
 
 
