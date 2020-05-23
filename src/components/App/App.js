@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Header from './Header.js'
-import About from './About.js'
-import Projects from './Projects.js'
-import Footer from './Footer.js'
+import Header from '../Header/Header.js'
+import About from './../About/About'
+import Projects from '../../containers/Projects.js'
+import Footer from '../Footer/Footer.js'
 import './App.css';
 
 

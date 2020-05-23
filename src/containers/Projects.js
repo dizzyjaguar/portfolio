@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProjectItem from './ProjectItem.js'
+import ProjectItem from '../components/ProjectItem/ProjectItem.js'
 
 export default class Projects extends Component {
   render() {
