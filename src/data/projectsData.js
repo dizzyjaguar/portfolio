@@ -11,7 +11,11 @@ const projectsData = [
     title: 'Django Photo Gallery',
     liveUrl: 'https://louie-gallery.herokuapp.com/',
     repo: 'https://github.com/dizzyjaguar/Louie-Moskowitz-Photo-Gallery',
+<<<<<<< HEAD
     technology: 'Python, Django, Postgresql',
+=======
+    technology: 'Python, Django, Postgreql',
+>>>>>>> ca6e00058dd25beea9bac64f9b433ab6753f3edc
     description: 'A photographers photo-gallery built with Django. Upload images available through the Admin panel. E-commerce Print store is next on this project.',
     extra: '',
   },

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+a {
+  color: rgb(40, 166, 194);
+}
+
+a:hover {
+  color: rgb(218, 104, 18);
+}
+
+.App {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.Header {
+  background-color: #ffffff;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(176, 53, 53);
+  padding: 2%;
+}
+
+.About {
+  background-color: #ffffff;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 5%;
+  letter-spacing: .2em;
+}
+
+.About p {
+  color: rgb(54, 133, 167);
+  font-weight: 800;
+  line-height: 130%;
+}
+
+.Projects {
+  background-color: #ffffff;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  color: green;
+  padding: 5em;
+  letter-spacing: .5em;
+}
+
+.Project-Item {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(32, 153, 32);
+  border-radius: 1rem;
+  padding: 2%;
+  margin: 5%;
+  width: 40rem;
+  height: 25rem;
+  font-size: calc(5px + 2vmin);
+}
+
+.Technology {
+  color: rgb(192, 72, 72);
+  font-weight: bolder;
+}
+
+.Description {
+  color: rgb(223, 131, 33);
+  font-weight: 500 ;
+}
+
+.Extra {
+  color: rgb(114, 111, 111);
+  font-size: .7em;
+}
+
+.Title {
+  color: rgb(28, 160, 43);
+  font-size: 1.5em;
+};
+
+
