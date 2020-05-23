@@ -18,10 +18,10 @@ const projectsData = [
   {
     title: 'Goals App',
     liveUrl: 'no live url yet',
-    repo: 'Front-End: https://github.com/dizzyjaguar/goals-frontend, Back-End: https://github.com/dizzyjaguar/goals-backend',
+    repo: 'https://github.com/dizzyjaguar/goals-frontend/tree/dev',
     technology: 'MongoDB, Express.js, React, Node.js',
     description: 'An in-progress MERN stack app. Working on becoming a collaberative goal tracker.',
-    extra: 'This is in progress, so no live URL yet.',
+    extra: ' *Backend Repo:  https://github.com/dizzyjaguar/goals-backend/tree/dev *This is in progress, so no live URL yet.',
   }
 ];
 
