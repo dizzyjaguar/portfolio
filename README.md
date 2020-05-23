@@ -1,2 +1,2 @@
-##My Potfolio.
-##Built In React.
+-My Potfolio.
+-Built In React.
